@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Booking a flight in cleartrip.com",
+        "description": "",
+        "id": "test-the-getperson-api;booking-a-flight-in-cleartrip.com",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1356951311,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the url is up and running",
+            "match": {
+              "location": "stepdef.the_url_is_up_and_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19659646592,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i invoke the microservice",
+            "match": {
+              "location": "stepdef.i_invoke_the_microservice()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52050,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i receive the response sucessfully",
+            "match": {
+              "location": "stepdef.i_receive_the_response_sucessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "test the getperson api",
+    "description": "",
+    "id": "test-the-getperson-api",
+    "keyword": "Feature",
+    "uri": "test/resources/scenario.feature"
+  }
+]
