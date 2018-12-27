@@ -33,7 +33,8 @@
         NOTE:  a Sample jacoco.exec file has been included in the project under the root folder, use this file to see the report.
     
 
-# src module contains all the spring boot related classes. short description of the classes are given below:
+# src module:
+contains all the spring boot related classes. short description of the classes are given below:
   # hello.Application.java :
     the spring boot application class.
   # hello.DemoController.java
