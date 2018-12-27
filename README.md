@@ -10,17 +10,25 @@
       Note : i am assuming that the jacoco agent is stored in my local under the path "D:\\JavaAgents\\org.jacoco.agent-0.8.2-runtime.jar"
        and also i am assuming that the jacoco.exec will be generated under the path D:\\JavaAgents\\output
        update the above accordingly.
+       
     3. click apply and ok.
+    
     4. Follow the same steps for the CucumberRunner class under "junit" which is available on the upper left corner of the window.
+    
     5. Do Boot run the application.
+    
     6. Once the application is started successfully, open the CucumberRunner.java class, right click on the file and 
       select "Run CucumberRunner". This will start the cucumber test execution.
+      
     7. once the test are executed successfully, go to the location where the jacoco.exec file should be generated and verify
       the jacoco.exec file is there with size more than 0 byte.
+      
     8. Stop the boot run.
+    
     9. Got to intellji IDE, select Analyze> show coverage data. click on the "+" sign and select the jacoco.exec file that
         was  generated. you will see the code coverage details. use the "Generate coverage report" icon to generate the jacoco
         html report
+        
         
         NOTE:  a Sample jacoco.exec file has been included in the project under the root folder, use this file to see the report.
     
