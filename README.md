@@ -44,7 +44,8 @@ contains all the spring boot related classes. short description of the classes a
   # hello.Data.java
   - a simple class that represents the data layer,which provides methods to get the values of the various properties of the object person
   
-  # bdd module : this modules contains all the cucumber related classses
+  # bdd module :
+  this modules contains all the cucumber related classses
   # main.CucumberRunner.java 
   - the cucumber runner class, right click on this file and select "run" to execute the cucumber tests.
   
